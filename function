@@ -1,0 +1,16 @@
+ex)1
+
+const title = document.querySelector("#title");
+
+function handleClick(){
+    title.style.color = "blue";
+}
+title.addEventListener("click", handleClick);
+
+
+
+ex)2
+
+function a(){
+    document.getElementById('alert').style.display = 'block';
+}
