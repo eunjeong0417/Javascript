@@ -100,5 +100,24 @@ target.push = ('banana');
 console.log(target);
 
 
+const target = ['a', 'b', 'c', 'd','e'];
+target.pop();
+console.log(target);
+
+const target = ['a', 'b', 'c', 'd','e'];
+target.shift();
+console.log(target);
+
+const arr = [1,2,3,4,5];
+arr[arr.length -3]
+console.log(arr);
+
+const arr = [1,2,3,4,5];
+arr[arr.length - 1 ] = null;
+console.log(arr);
+
+const arr = [1,2,3,4,5];
+arr.pop();
+console.log(arr);
 
 
