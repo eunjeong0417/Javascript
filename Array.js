@@ -121,3 +121,24 @@ arr.pop();
 console.log(arr);
 
 
+
+const target = ['a','b','c','d','e'];
+const result = target.includes('c');
+console.log(result);
+
+const target = ['a','b','c','d','e'];
+const result2 = target.includes('f');
+console.log(result2);
+
+const target = ['a','b','c','d','e'];
+const result = target.indexOf('e');
+console.log(result);
+
+
+const target = ['a','b','c','d','e'];
+const result = target.lastIndexOf('d');
+console.log(result);
+
+const target = ['a','b','c','d','e'];
+const result = target.indexOf('f');
+console.log(result); 
