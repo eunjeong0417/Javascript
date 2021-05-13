@@ -34,3 +34,47 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-size: 3rem;}
+        h1{
+            background-color: yellowgreen;
+        }
+        .ilbuni{
+            display:inline-block;
+            list-style:none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">
+        <span>hello</span>
+        DOM (Document Object Model)
+    </h1>
+    <ul>
+        <li class="ilbuni">
+            <img src="ilbuni-1.png">
+            <a href="https://google.com">Google</a>
+        </li>
+        <li class="ilbuni"><img src="ilbuni-2.png"></li>
+        <li class="ilbuni"><img src="ilbuni-3.png"></li>
+    </ul>
+
+    <script>
+        var link = document.querySelector('.ilbuni a');
+        console.log(link.getAttribute('href'));
+        link.setAttribute('href', 'https://www.naver.com');
+        console.log(link.getAttribute('href'));
+    </script>
+</body>
+</html>
