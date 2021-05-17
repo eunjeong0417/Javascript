@@ -23,3 +23,15 @@ const onClick = function(){
 }
 
 document.querySelector('button').addEventListener('click', onClick);
+
+
+3)
+
+document.querySelector('input').addEventListener('input', function(){
+    console.log('typing');
+});
+
+
+document.querySelector('input').addEventListener('input',() => {console.log('typing')
+});
+
