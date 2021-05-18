@@ -54,3 +54,18 @@ const user = {
 
 console.log(user.fnc());
 
+
+const user = {
+    age:25,
+    name:"abc",
+    details:{
+        phone:01000,
+        hobby:"game",
+        fnc: function(){
+            return this.hobby;
+        }
+    }
+};
+
+console.log(user.details.fnc());
+
